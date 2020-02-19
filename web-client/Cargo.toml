@@ -1,0 +1,15 @@
+[package]
+name = "web-client"
+version = "0.1.0"
+authors = ["Jonathan Eugene Muller <jonathan.muller@uber.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#actix-rt = "0.2.4"
+actix-web = { version="2.0.0" }
+# awc = { version="0.2.4", features=["ssl"] }
+#awc = { version="0.2.4", features=["rust-tls"] } # rustls gives the same error
+futures = "0.1.28"
+env_logger = "*"
